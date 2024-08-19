@@ -84,6 +84,11 @@
     margin: 0 8px;
     background-color: #4070f4;
     text-decoration: none;
+    transition: all 0.2s;
+    border: 1px solid black;
+}
+.media-buttons .link:hover{
+  transform: scale(1.2);
 }
 .profile-card .buttons {
     display: flex;
@@ -100,10 +105,12 @@
     padding: 8px 24px;
     background-color: #4070f4;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .buttons .button:hover{
     background-color: #0e4bf1;
+    border: 1px solid black;
+    transform: scale(1.1);
 }
 .profile-card .analytics{
     display: flex;
@@ -116,7 +123,7 @@
     color: #333;
     padding: 0 20px;
     border-right: 2px solid #b18f8f;
-    transition: all 10s;
+    transition: all 0.1s;
     cursor: pointer;
 }
 .data i {
@@ -127,5 +134,5 @@
     border-right: none;
 }
 .analytics .data:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
