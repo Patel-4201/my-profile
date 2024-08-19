@@ -116,6 +116,8 @@
     color: #333;
     padding: 0 20px;
     border-right: 2px solid #b18f8f;
+    transition: all 10s;
+    cursor: pointer;
 }
 .data i {
     font-size: 18px;
@@ -123,4 +125,7 @@
 }
 .data:last-child{
     border-right: none;
+}
+.analytics .data:hover{
+    transform: scale(1.4);
 }
